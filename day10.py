@@ -187,7 +187,7 @@ for cmd in cmds:
 
 
 for i in range(len(crt)):
-    d = '#' if crt[i] > 0 else '_'
+    d = '#' if crt[i] > 0 else ' '
     end = ''
     if i != 0 and (i+1) % 40 == 0:
         end = '\n'
